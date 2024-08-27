@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e1e1;
+        }
+        header {
+            background-color: #ac0a0a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            height: 60px;
+        
+        }
+        .search-bar {
+            margin: 20px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .video-player {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px 0;
+        }
+        .video-list {
+            width: 80%;
+            max-width: 800px;
+        }
+        .video-item {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .video-item img {
+            width: 120px;
+            height: 90px;
+            margin-right: 10px;
+        }
+        .video-item .video-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .video-item h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .video-item p {
+            margin: 5px 0;
+            color: #111111;
+        }
+        .description {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        a {
+            color: #3c3c3d;
+            text-decoration: none;
+        }
+        .bold {
+            font-weight: bold;
+        
+        }
+        footer { 
+            background: #ac0a0a; color: #ffffff; text-align: center; padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="homepage.html">
+        <img src="mainlogo.png" alt="video player Logo">
+        </a>
+    </header>
+
+<div class="search-bar">
+    <nav>
+        <input type="text" placeholder="Search videos...">
+        <button>Search</button>
+    </nav>
+</div>
+
+<div class="main-content">
+    <div class="video-player">
+        <!-- 4k video -->
+        <video controls width="100%">
+            <source src="avgers.MP4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="description">
+        <h1>Avengers     |vp</h1>
+    
+    </div>
+    <BR>
+    <div class="video-list">
+        <div class="video-item">
+            <a href="youtube clone.html">
+            <img src="dark.jpg" alt="Video Thumbnail">
+            <div class="video-info">
+                <h3>darkforest 4K
+                </h3>
+                <p>manu_fayz</p>
+                <p>1,345 views • 5 days ago</p></a>
+                </div>
+        </div>
+
+        <div class="video-item">
+            <a href="youtube 4.html">
+            <img src="mountain.jpg" alt="Video Thumbnail">
+            <div class="video-info">
+                <h3> 4k</h3>
+                <p>manu_fayz</p>
+                <p>1,234 views • 1 week ago</p>
+            </a>
+           </div>
+        </div>
+
+        <div class="video-item">
+            <a href="youtube 5.html">
+            <img src="spidy.jpg" alt="Video Thumbnail">
+            <div class="video-info">
+                <h3>spiderman</h3>
+                <p>manu_fayz</p>
+                <p>3,254 views • 3 week ago</p>
+            </a>
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <a href="youtube 3.html">
+            <img src="thor.jpg" alt="Video Thumbnail">
+            <div class="video-info">
+                <h3>thor 4k </h3>
+                <p>manu_fayz</p>
+                <p>2,534 views • 2 week ago</p></a>
+            </div>
+        </div>
+        <!-- Add more video items here -->
+    </div>
+    <a href="homepage.html"><b>📍</b></a>
+</div>
+<footer>
+    <p>&copy; 2024 video player </p>
+</footer>
+</body>
+</html>

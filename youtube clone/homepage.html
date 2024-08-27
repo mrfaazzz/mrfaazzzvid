@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player  Homepage </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3d3939;
+        }
+        header {
+            background-color: #ac0a0a;
+            color: rgb(32, 31, 31);
+            padding: 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+        
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav input {
+            padding: 5px;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        nav button {
+            padding: 5px 10px;
+            margin-left: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-card {
+            background-color: #312e2e;
+            width: 300px;
+            margin: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .video-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .video-details {
+            padding: 15px;
+        }
+        .video-details h3 {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+            color: beige;
+        }
+        .video-details p {
+            font-size: 14px;
+            color: white;
+            margin: 0;
+        }
+        footer {
+            background-color: #ac0a0a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="D:\html\youtube clone\logo\mainlogo2.png" alt="video player Logo">
+    <nav>
+        <input type="text" placeholder="Search">
+        <button>Search</button>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="video-card">
+        <a href="D:\html\youtube clone\youtube 4.html">
+        <img src="D:\html\youtube clone\imgs\mountain.jpg" alt="Video Thumbnail">
+        <div class="video-details">
+            <h3>4k video</h3>
+            <p>manu_fayz• 1,234 views • 1 week ago</p>
+        </div></a>
+    </div>
+    <div class="video-card">
+        <a href="D:\html\youtube clone\youtube 2.html">
+        <img src="D:\html\youtube clone\imgs\avgers.jpg" alt="Video Thumbnail">
+        <div class="video-details">
+            <h3>avengers </h3>
+            <p>manu_fayz • 2,345 views • 3 days ago</p>
+        </div></a>
+    </div>
+    <div class="video-card">
+        <a href="D:\html\youtube clone\youtube 3.html">
+        <img src="D:\html\youtube clone\imgs\thor.jpg" alt="Video Thumbnail">
+        <div class="video-details">
+            <h3>Thor 4k </h3>
+            <p>manu_fayz • 2,534 views • 2 week ago</p></a>
+        </div>
+    </div>
+    <div class="video-card">
+        <a href="D:\html\youtube clone\youtube clone.html">
+        <img src="D:\html\youtube clone\imgs\dark.jpg" alt="Video Thumbnail">
+        <div class="video-details">
+            <h3>darkforest 4k </h3>
+            <p>manu_fayz • 1,345 views • 5 days ago</p></a>
+        </div>
+    </div>
+    <div class="video-card">
+        <a href="D:\html\youtube clone\youtube 5.html">
+        <img src="D:\html\youtube clone\imgs\spidy.jpg" alt="Video Thumbnail">
+        <div class="video-details">
+            <h3>spiderman 4k</h3>
+            <p>manu_fayz • 3,254 views • 3 week ago</p>
+        </div></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 video player - All rights reserved.</p>
+</footer>
+
+</body>
+</html>
